@@ -1,0 +1,16 @@
+{% layout "base" %}
+{% block content %}
+
+  <p>
+    <b>Welcome to Study-Quiz! Your registration was successful.</b> <br /><br />
+
+    To activate your account and start enjoying our services, please click on the following button:<br />
+
+    {% render 'partial-link-button.liquid', linkUrl: url, linkText: 'Verify E-Mail' %}
+
+    <br /><br />
+
+    If you didn't create an account with us, please disregard this email.
+  </p>
+
+{% endblock %}

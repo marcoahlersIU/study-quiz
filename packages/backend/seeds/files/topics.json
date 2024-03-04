@@ -1,0 +1,1876 @@
+[
+  {
+    "title": "Datenbanken",
+    "icon": "Database",
+    "sort": 0,
+    "questions": [
+      {
+        "content": "Was ist ein Primärschlüssel in einer Datenbank?",
+        "answers": [
+          {
+            "content": "Ein Schlüssel, der Duplikate in einer Tabelle zulässt.",
+            "correctAnswer": false,
+            "reason": "Ein Primärschlüssel erlaubt keine Duplikate; jeder Eintrag muss einzigartig sein."
+          },
+          {
+            "content": "Ein Schlüssel, der für die Verschlüsselung der Datenbankdaten verwendet wird.",
+            "correctAnswer": false,
+            "reason": "Ein Primärschlüssel wird nicht für die Verschlüsselung verwendet, sondern zur eindeutigen Identifizierung von Datensätzen."
+          },
+          {
+            "content": "Ein eindeutiger Schlüssel für jeden Datensatz in einer Tabelle.",
+            "correctAnswer": true,
+            "reason": "Ein Primärschlüssel ist ein einzigartiges Attribut (oder eine Kombination von Attributen), das jeden Datensatz in einer Tabelle eindeutig identifiziert."
+          },
+          {
+            "content": "Ein Schlüssel, der den Zugriff auf die Datenbank kontrolliert.",
+            "correctAnswer": false,
+            "reason": "Ein Primärschlüssel dient nicht zur Zugriffskontrolle, sondern zur Identifizierung von Datensätzen."
+          }
+        ]
+      },
+      {
+        "content": "Was beschreibt eine Transaktion in einer Datenbank?",
+        "answers": [
+          {
+            "content": "Eine Abfolge von SQL-Befehlen, die nicht rückgängig gemacht werden können.",
+            "correctAnswer": false,
+            "reason": "Transaktionen können in der Regel mit einem ROLLBACK-Befehl rückgängig gemacht werden, falls sie noch nicht bestätigt wurden."
+          },
+          {
+            "content": "Ein einzelner SQL-Befehl.",
+            "correctAnswer": false,
+            "reason": "Eine Transaktion kann aus mehreren SQL-Befehlen bestehen, die als eine Einheit behandelt werden."
+          },
+          {
+            "content": "Eine Reihe von Datenbankoperationen, die als Einheit behandelt werden.",
+            "correctAnswer": true,
+            "reason": "Eine Transaktion in Datenbanken ist eine Reihe von Operationen, die als eine einzige logische Einheit der Arbeit behandelt werden, um Datenintegrität zu gewährleisten."
+          },
+          {
+            "content": "Ein Prozess zum Sichern der Datenbank.",
+            "correctAnswer": false,
+            "reason": "Transaktionen betreffen die Ausführung von Operationen, nicht das Sichern der Datenbank."
+          }
+        ]
+      },
+      {
+        "content": "Was ist SQL?",
+        "answers": [
+          {
+            "content": "Ein Protokoll zum Sichern von Datenbankverbindungen.",
+            "correctAnswer": false,
+            "reason": "SQL steht für Structured Query Language und ist keine Sicherheitsprotokoll."
+          },
+          {
+            "content": "Ein Dateiformat für den Import und Export von Datenbankdaten.",
+            "correctAnswer": false,
+            "reason": "SQL ist ein Standard für das Abfragen und Manipulieren von Datenbanken, kein Dateiformat."
+          },
+          {
+            "content": "Eine Sprache zur Definition, Abfrage und Manipulation von Daten in relationalen Datenbanken.",
+            "correctAnswer": true,
+            "reason": "SQL ist genau das: eine Sprache für den Umgang mit Daten in relationalen Datenbanken."
+          },
+          {
+            "content": "Ein Tool zur visuellen Gestaltung von Datenbanken.",
+            "correctAnswer": false,
+            "reason": "SQL ist eine Abfragesprache, keine Software zur visuellen Gestaltung von Datenbanken."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine relationale Datenbank?",
+        "answers": [
+          {
+            "content": "Eine Datenbank, die Beziehungen zwischen Tabellen nicht unterstützt.",
+            "correctAnswer": false,
+            "reason": "Eine relationale Datenbank basiert gerade auf dem Konzept der Beziehungen zwischen den Tabellen."
+          },
+          {
+            "content": "Eine Sammlung von Daten, die in Tabellen organisiert ist, zwischen denen Beziehungen bestehen.",
+            "correctAnswer": true,
+            "reason": "Genau dies beschreibt eine relationale Datenbank: Daten organisiert in Tabellen, die durch Beziehungen miteinander verbunden sind."
+          },
+          {
+            "content": "Eine Datenbank, die ausschließlich für die Speicherung von XML-Daten verwendet wird.",
+            "correctAnswer": false,
+            "reason": "Relationale Datenbanken speichern Daten in Tabellen und sind nicht auf XML-Daten beschränkt."
+          },
+          {
+            "content": "Ein Typ von NoSQL-Datenbank.",
+            "correctAnswer": false,
+            "reason": "Relationale Datenbanken sind ein eigenständiger Typ und gehören nicht zu den NoSQL-Datenbanken."
+          }
+        ]
+      },
+      {
+        "content": "Was bedeutet ACID in Bezug auf Datenbanktransaktionen?",
+        "answers": [
+          {
+            "content": "Asynchronous, Consistent, Isolated, Durable",
+            "correctAnswer": false,
+            "reason": "ACID steht nicht für Asynchronous, sondern für Atomicity, Consistency, Isolation, Durability."
+          },
+          {
+            "content": "Atomicity, Consistency, Isolation, Durability",
+            "correctAnswer": true,
+            "reason": "ACID-Prinzipien gewährleisten die Zuverlässigkeit von Datenbanktransaktionen durch Atomarität, Konsistenz, Isolation und Dauerhaftigkeit."
+          },
+          {
+            "content": "Automatic, Concurrent, Integrated, Dynamic",
+            "correctAnswer": false,
+            "reason": "Diese Begriffe sind nicht die korrekten Bestandteile des ACID-Prinzips für Datenbanktransaktionen."
+          },
+          {
+            "content": "Authentication, Confidentiality, Integrity, Documentation",
+            "correctAnswer": false,
+            "reason": "Diese Begriffe beschreiben Sicherheitsaspekte, sind aber nicht die Bestandteile der ACID-Prinzipien für Datenbanktransaktionen."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "IT-Service-Managament",
+    "icon": "Phone",
+    "sort": 1,
+    "questions": [
+      {
+        "content": "Was ist das Hauptziel des ITIL-Frameworks?",
+        "answers": [
+          {
+            "content": "Entwicklung von Software",
+            "correctAnswer": false,
+            "reason": "ITIL konzentriert sich auf IT-Service-Management, nicht direkt auf Softwareentwicklung."
+          },
+          {
+            "content": "Verbesserung der IT-Service-Management-Praktiken",
+            "correctAnswer": true,
+            "reason": "Das Hauptziel von ITIL ist die Verbesserung und Standardisierung von IT-Service-Management-Praktiken."
+          },
+          {
+            "content": "Verringerung der IT-Ausgaben",
+            "correctAnswer": false,
+            "reason": "Obwohl Kosteneffizienz ein Ziel sein kann, ist es nicht das Hauptziel von ITIL."
+          },
+          {
+            "content": "Erhöhung der Netzwerkgeschwindigkeit",
+            "correctAnswer": false,
+            "reason": "ITIL fokussiert sich auf Management-Praktiken, nicht auf technische Leistungsverbesserungen wie Netzwerkgeschwindigkeit."
+          }
+        ]
+      },
+      {
+        "content": "Was beschreibt am besten einen Incident im Kontext des IT-Service-Managements?",
+        "answers": [
+          {
+            "content": "Eine geplante Änderung am IT-Service",
+            "correctAnswer": false,
+            "reason": "Incidents sind unerwartete Ereignisse, keine geplanten Änderungen."
+          },
+          {
+            "content": "Ein unerwartetes Ereignis, das den Service stört oder die Servicequalität mindert",
+            "correctAnswer": true,
+            "reason": "Ein Incident ist genau das: ein unerwartetes Ereignis, das den normalen Servicebetrieb stört."
+          },
+          {
+            "content": "Eine Anfrage von einem Benutzer nach Informationen oder Rat",
+            "correctAnswer": false,
+            "reason": "Das wäre eher eine Serviceanfrage als ein Incident."
+          },
+          {
+            "content": "Ein regelmäßiges Update der IT-Infrastruktur",
+            "correctAnswer": false,
+            "reason": "Updates sind geplante Aktivitäten und keine Incidents."
+          }
+        ]
+      },
+      {
+        "content": "Welche Rolle spielt der Service Desk im IT-Service-Management?",
+        "answers": [
+          {
+            "content": "Entwicklung neuer IT-Lösungen",
+            "correctAnswer": false,
+            "reason": "Der Service Desk kümmert sich um Supportanfragen, nicht um die Entwicklung neuer Lösungen."
+          },
+          {
+            "content": "Erster Ansprechpartner für alle IT-bezogenen Fragen und Probleme",
+            "correctAnswer": true,
+            "reason": "Der Service Desk ist die zentrale Anlaufstelle für alle IT-Anfragen und -Probleme."
+          },
+          {
+            "content": "Überwachung der Netzwerksicherheit",
+            "correctAnswer": false,
+            "reason": "Während der Service Desk sich mit sicherheitsrelevanten Incidents befassen kann, ist die Überwachung der Netzwerksicherheit nicht seine Hauptaufgabe."
+          },
+          {
+            "content": "Verwaltung der Unternehmensfinanzen",
+            "correctAnswer": false,
+            "reason": "Finanzmanagement ist nicht die Aufgabe des Service Desk."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter einem Service Level Agreement (SLA)?",
+        "answers": [
+          {
+            "content": "Eine Vereinbarung zwischen zwei Parteien über die Qualität eines Produkts",
+            "correctAnswer": false,
+            "reason": "Ein SLA bezieht sich spezifisch auf Services, nicht auf Produkte."
+          },
+          {
+            "content": "Eine Vereinbarung über die erwartete Servicequalität zwischen einem Dienstleister und einem Kunden",
+            "correctAnswer": true,
+            "reason": "Genau das definiert ein Service Level Agreement."
+          },
+          {
+            "content": "Ein Vertrag über die Lieferzeit von neuen IT-Projekten",
+            "correctAnswer": false,
+            "reason": "SLAs beziehen sich auf die Qualität von Services, nicht direkt auf Projekt-Lieferzeiten."
+          },
+          {
+            "content": "Eine interne Vereinbarung über die Arbeitszeiten der IT-Mitarbeiter",
+            "correctAnswer": false,
+            "reason": "SLAs betreffen die Servicequalität, nicht die Arbeitszeiten der Mitarbeiter."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein wesentlicher Bestandteil der kontinuierlichen Verbesserung im IT-Service-Management?",
+        "answers": [
+          {
+            "content": "Jährliche Mitarbeiterbewertungen",
+            "correctAnswer": false,
+            "reason": "Mitarbeiterbewertungen sind wichtig, aber nicht der Kern der kontinuierlichen Verbesserung im ITSM."
+          },
+          {
+            "content": "Regelmäßige Überprüfung und Verbesserung der IT-Service-Prozesse",
+            "correctAnswer": true,
+            "reason": "Kontinuierliche Verbesserung zielt darauf ab, IT-Service-Prozesse regelmäßig zu überprüfen und zu verbessern."
+          },
+          {
+            "content": "Die Auswahl neuer IT-Service-Management-Tools",
+            "correctAnswer": false,
+            "reason": "Während neue Tools helfen können, ist die kontinuierliche Prozessverbesserung der Schlüssel."
+          },
+          {
+            "content": "Erhöhung der IT-Ausgaben",
+            "correctAnswer": false,
+            "reason": "Kontinuierliche Verbesserung fokussiert sich auf Effizienz und Effektivität, nicht notwendigerweise auf erhöhte Ausgaben."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "BWL 1",
+    "icon": "Store",
+    "sort": 2,
+    "questions": [
+      {
+        "content": "Was versteht man unter dem Begriff \"Marketing\"?",
+        "answers": [
+          {
+            "content": "Die Entwicklung von Finanzplänen",
+            "correctAnswer": false,
+            "reason": "Marketing bezieht sich nicht auf die Entwicklung von Finanzplänen, sondern auf die Promotion und den Verkauf von Produkten oder Dienstleistungen."
+          },
+          {
+            "content": "Die Analyse von Produktionsprozessen",
+            "correctAnswer": false,
+            "reason": "Marketing befasst sich nicht primär mit der Analyse von Produktionsprozessen."
+          },
+          {
+            "content": "Die Förderung, den Verkauf und die Verteilung eines Produkts oder einer Dienstleistung",
+            "correctAnswer": true,
+            "reason": "Marketing umfasst genau diese Aspekte: Förderung, Verkauf und Verteilung."
+          },
+          {
+            "content": "Die Verwaltung von Unternehmensressourcen",
+            "correctAnswer": false,
+            "reason": "Während die Verwaltung von Unternehmensressourcen wichtig ist, fällt dies nicht unter den Bereich des Marketings."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine SWOT-Analyse?",
+        "answers": [
+          {
+            "content": "Ein Prozess zur Identifizierung von Stärken, Schwächen, Chancen und Bedrohungen eines Unternehmens",
+            "correctAnswer": true,
+            "reason": "Die SWOT-Analyse dient genau diesem Zweck."
+          },
+          {
+            "content": "Eine Methode zur Berechnung des Jahresüberschusses eines Unternehmens",
+            "correctAnswer": false,
+            "reason": "Die SWOT-Analyse konzentriert sich nicht auf finanzielle Kennzahlen, sondern auf strategische Planung."
+          },
+          {
+            "content": "Ein Verfahren zur Mitarbeiterbewertung",
+            "correctAnswer": false,
+            "reason": "SWOT-Analysen werden nicht für Mitarbeiterbewertungen verwendet."
+          },
+          {
+            "content": "Ein Tool zur Produktentwicklung",
+            "correctAnswer": false,
+            "reason": "Obwohl SWOT-Analysen im Rahmen der Produktentwicklung nützlich sein können, ist dies nicht ihre primäre Funktion."
+          }
+        ]
+      },
+      {
+        "content": "Was bedeutet die Abkürzung \"USP\"?",
+        "answers": [
+          {
+            "content": "Ungefähre Verkaufspreis",
+            "correctAnswer": false,
+            "reason": "USP steht nicht für Ungefähre Verkaufspreis."
+          },
+          {
+            "content": "Universelle Servicenummer",
+            "correctAnswer": false,
+            "reason": "USP steht nicht für Universelle Servicenummer."
+          },
+          {
+            "content": "Einzigartiges Verkaufsversprechen",
+            "correctAnswer": true,
+            "reason": "USP bedeutet Einzigartiges Verkaufsversprechen (Unique Selling Proposition)."
+          },
+          {
+            "content": "Unternehmensstrategieplan",
+            "correctAnswer": false,
+            "reason": "USP bezieht sich nicht auf den Unternehmensstrategieplan."
+          }
+        ]
+      },
+      {
+        "content": "Welche der folgenden Optionen ist ein Beispiel für eine Variable Kosten?",
+        "answers": [
+          {
+            "content": "Miete für Büroräume",
+            "correctAnswer": false,
+            "reason": "Miete ist ein Beispiel für fixe Kosten, da sie unabhängig von der Produktionsmenge gleich bleibt."
+          },
+          {
+            "content": "Gehälter der Geschäftsführung",
+            "correctAnswer": false,
+            "reason": "Gehälter der Geschäftsführung sind in der Regel fixe Kosten."
+          },
+          {
+            "content": "Rohstoffkosten",
+            "correctAnswer": true,
+            "reason": "Rohstoffkosten variieren mit der Produktionsmenge und sind daher variable Kosten."
+          },
+          {
+            "content": "Abschreibungen auf Maschinen",
+            "correctAnswer": false,
+            "reason": "Abschreibungen sind fixe Kosten, da sie nicht direkt mit der Produktionsmenge zusammenhängen."
+          }
+        ]
+      },
+      {
+        "content": "Welches Finanzierungsinstrument zählt nicht zum Eigenkapital?",
+        "answers": [
+          {
+            "content": "Stammaktien",
+            "correctAnswer": false,
+            "reason": "Stammaktien repräsentieren Eigentümeranteile am Unternehmen und zählen somit zum Eigenkapital."
+          },
+          {
+            "content": "Vorzugsaktien",
+            "correctAnswer": false,
+            "reason": "Vorzugsaktien sind eine Form des Eigenkapitals, die Vorrechte gegenüber Stammaktien haben können."
+          },
+          {
+            "content": "Unternehmensanleihen",
+            "correctAnswer": true,
+            "reason": "Unternehmensanleihen sind Fremdkapital, da sie Schulden des Unternehmens gegenüber den Gläubigern darstellen."
+          },
+          {
+            "content": "Gewinnrücklagen",
+            "correctAnswer": false,
+            "reason": "Gewinnrücklagen sind Teil des Eigenkapitals, da sie aus thesaurierten Gewinnen bestehen."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "IT-Recht",
+    "icon": "LibraryBig",
+    "sort": 3,
+    "questions": [
+      {
+        "content": "Welche Verordnung regelt in der EU den Datenschutz?",
+        "answers": [
+          {
+            "content": "DSGVO (Datenschutz-Grundverordnung)",
+            "correctAnswer": true,
+            "reason": "Die DSGVO ist die zentrale Verordnung in der EU, die den Datenschutz regelt."
+          },
+          {
+            "content": "GDPR (General Data Protection Regulation)",
+            "correctAnswer": false,
+            "reason": "GDPR ist die englische Bezeichnung für die DSGVO, aber die Frage bezieht sich auf die deutsche Bezeichnung."
+          },
+          {
+            "content": "FCC (Federal Communications Commission)",
+            "correctAnswer": false,
+            "reason": "Die FCC ist eine US-amerikanische Behörde und hat keine Zuständigkeit in der EU."
+          },
+          {
+            "content": "BDSG (Bundesdatenschutzgesetz)",
+            "correctAnswer": false,
+            "reason": "Das BDSG ist zwar relevant für den Datenschutz in Deutschland, jedoch nicht die grundlegende Verordnung in der EU."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Impressumspflicht nach dem deutschen Recht?",
+        "answers": [
+          {
+            "content": "Eine Pflicht für Websites, bestimmte Anbieterinformationen bereitzustellen",
+            "correctAnswer": true,
+            "reason": "Nach deutschem Recht müssen Websites ein Impressum mit spezifischen Anbieterinformationen enthalten."
+          },
+          {
+            "content": "Eine jährliche Gebühr für Webseitenbetreiber",
+            "correctAnswer": false,
+            "reason": "Die Impressumspflicht bezieht sich auf die Bereitstellung von Informationen, nicht auf eine Gebühr."
+          },
+          {
+            "content": "Eine Lizenz zum Betreiben einer Webseite",
+            "correctAnswer": false,
+            "reason": "Eine Impressumspflicht ist keine Lizenz, sondern eine Informationspflicht."
+          },
+          {
+            "content": "Ein Vertrag zwischen Webseite und Nutzer",
+            "correctAnswer": false,
+            "reason": "Die Impressumspflicht ist keine vertragliche Vereinbarung, sondern eine gesetzliche Anforderung."
+          }
+        ]
+      },
+      {
+        "content": "Welche Aussage zum Urheberrecht ist korrekt?",
+        "answers": [
+          {
+            "content": "Urheberrecht schützt Werke ab dem Moment ihrer Schöpfung ohne Registrierung.",
+            "correctAnswer": true,
+            "reason": "Das Urheberrecht tritt automatisch bei der Schöpfung eines Werks in Kraft und bedarf keiner Registrierung."
+          },
+          {
+            "content": "Urheberrecht erlischt 50 Jahre nach Veröffentlichung eines Werks.",
+            "correctAnswer": false,
+            "reason": "Die Dauer des Urheberrechtsschutzes variiert je nach Land, ist aber meist länger als 50 Jahre nach dem Tod des Urhebers."
+          },
+          {
+            "content": "Jede Nutzung eines urheberrechtlich geschützten Werks erfordert eine Lizenz.",
+            "correctAnswer": false,
+            "reason": "Es gibt Ausnahmen, wie z.B. Fair Use oder Zitate, die keine Lizenzierung erfordern."
+          },
+          {
+            "content": "Urheberrechte müssen immer aktiv durch Klage durchgesetzt werden.",
+            "correctAnswer": false,
+            "reason": "Obwohl Klagen eine Möglichkeit zur Durchsetzung sind, gibt es auch andere Wege, wie z.B. Lizenzvereinbarungen."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter \"Open Source Software\"?",
+        "answers": [
+          {
+            "content": "Software mit einer Lizenz, die freie Verbreitung und Modifikation erlaubt",
+            "correctAnswer": true,
+            "reason": "Open Source Software ist durch Lizenzen charakterisiert, die freie Nutzung, Verbreitung und Änderung ermöglichen."
+          },
+          {
+            "content": "Kostenlose Software ohne jegliche Lizenzbeschränkungen",
+            "correctAnswer": false,
+            "reason": "Open Source bedeutet nicht zwangsläufig kostenlos, und es gibt Lizenzbedingungen."
+          },
+          {
+            "content": "Software, die ausschließlich für Bildungszwecke genutzt werden darf",
+            "correctAnswer": false,
+            "reason": "Open Source Software kann für viele Zwecke genutzt werden, nicht nur für Bildung."
+          },
+          {
+            "content": "Eine spezielle Art von Software, die nur im Internet genutzt werden kann",
+            "correctAnswer": false,
+            "reason": "Open Source Software kann lokal oder im Internet genutzt werden; die Definition bezieht sich nicht auf den Nutzungsort."
+          }
+        ]
+      },
+      {
+        "content": "Was kennzeichnet eine \"Cookie-Richtlinie\" in der EU?",
+        "answers": [
+          {
+            "content": "Vorschriften zur Einholung von Zustimmungen für Cookies auf Webseiten",
+            "correctAnswer": true,
+            "reason": "Die Cookie-Richtlinie der EU verlangt, dass Webseitenbetreiber Zustimmungen für das Setzen von Cookies einholen."
+          },
+          {
+            "content": "Ein Gesetz, das die Verwendung von Cookies komplett verbietet",
+            "correctAnswer": false,
+            "reason": "Die Cookie-Richtlinie verbietet Cookies nicht, sondern regelt die Zustimmung zur Verwendung."
+          },
+          {
+            "content": "Eine technische Spezifikation für die Implementierung von Cookies",
+            "correctAnswer": false,
+            "reason": "Die Richtlinie befasst sich mit der rechtlichen, nicht der technischen Seite von Cookies."
+          },
+          {
+            "content": "Eine jährliche Gebühr für die Nutzung von Cookies auf Webseiten",
+            "correctAnswer": false,
+            "reason": "Es gibt keine Gebühr für die Nutzung von Cookies gemäß der EU-Richtlinie; es geht um Zustimmung und Transparenz."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "IT-Security",
+    "icon": "Key",
+    "sort": 5,
+    "questions": [
+      {
+        "content": "Was ist ein Trojaner?",
+        "answers": [
+          {
+            "content": "Ein Antivirus-Programm",
+            "correctAnswer": false,
+            "reason": "Ein Trojaner ist eine Art von Malware und kein Antivirus-Programm."
+          },
+          {
+            "content": "Eine Form von Malware, die sich als harmlose Software tarnt",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein Trojaner tarnt sich als harmlose Software, um den Nutzer zum Download zu verleiten."
+          },
+          {
+            "content": "Ein sicheres Passwort",
+            "correctAnswer": false,
+            "reason": "Ein Trojaner hat nichts mit Passwortsicherheit zu tun."
+          },
+          {
+            "content": "Ein Typ von Firewall",
+            "correctAnswer": false,
+            "reason": "Ein Trojaner ist eine bösartige Software, keine Firewall."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter Phishing?",
+        "answers": [
+          {
+            "content": "Die Optimierung von Suchmaschinen",
+            "correctAnswer": false,
+            "reason": "Phishing hat nichts mit Suchmaschinenoptimierung zu tun."
+          },
+          {
+            "content": "Eine Technik im Angelsport",
+            "correctAnswer": false,
+            "reason": "Obwohl es phonetisch ähnlich klingt, bezieht sich Phishing in IT-Security auf betrügerische Aktivitäten."
+          },
+          {
+            "content": "Eine Methode, um vertrauliche Informationen zu stehlen",
+            "correctAnswer": true,
+            "reason": "Korrekt, Phishing ist eine betrügerische Methode, um an vertrauliche Informationen zu gelangen."
+          },
+          {
+            "content": "Ein Programm zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Phishing ist eine betrügerische Technik und kein Verschlüsselungsprogramm."
+          }
+        ]
+      },
+      {
+        "content": "Welche Methode verbessert NICHT die Sicherheit eines WLAN-Netzwerks?",
+        "answers": [
+          {
+            "content": "WPA2-Verschlüsselung aktivieren",
+            "correctAnswer": false,
+            "reason": "Die Aktivierung der WPA2-Verschlüsselung verbessert die Sicherheit eines WLAN-Netzwerks."
+          },
+          {
+            "content": "Das Standard-Admin-Passwort ändern",
+            "correctAnswer": false,
+            "reason": "Das Ändern des Standard-Admin-Passworts ist eine wichtige Sicherheitsmaßnahme."
+          },
+          {
+            "content": "Die SSID verbergen",
+            "correctAnswer": false,
+            "reason": "Das Verbergen der SSID kann die Sicherheit verbessern, indem es das Netzwerk weniger sichtbar macht."
+          },
+          {
+            "content": "Die Signalstärke erhöhen",
+            "correctAnswer": true,
+            "reason": "Die Erhöhung der Signalstärke verbessert die Reichweite, aber nicht direkt die Sicherheit des Netzwerks."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine Zwei-Faktor-Authentifizierung?",
+        "answers": [
+          {
+            "content": "Ein Passwort, das zweimal eingegeben werden muss",
+            "correctAnswer": false,
+            "reason": "Eine Zwei-Faktor-Authentifizierung erfordert zwei unterschiedliche Formen der Identifikation, nicht nur die zweifache Eingabe eines Passworts."
+          },
+          {
+            "content": "Eine Authentifizierung, die zwei Passwörter benötigt",
+            "correctAnswer": false,
+            "reason": "Zwei-Faktor-Authentifizierung bezieht sich auf die Nutzung von zwei verschiedenen Authentifizierungsmethoden, nicht nur Passwörter."
+          },
+          {
+            "content": "Die Kombination aus etwas, das der Nutzer weiß, und etwas, das der Nutzer besitzt",
+            "correctAnswer": true,
+            "reason": "Korrekt, dies ist das Prinzip der Zwei-Faktor-Authentifizierung, z.B. ein Passwort und ein per SMS gesendeter Code."
+          },
+          {
+            "content": "Eine Methode, die ausschließlich biometrische Daten verwendet",
+            "correctAnswer": false,
+            "reason": "Zwei-Faktor-Authentifizierung kann biometrische Daten beinhalten, basiert aber nicht ausschließlich darauf."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Man-in-the-Middle-Angriff?",
+        "answers": [
+          {
+            "content": "Ein Angriff, bei dem der Angreifer direkt den Computer des Opfers hackt",
+            "correctAnswer": false,
+            "reason": "Ein Man-in-the-Middle-Angriff findet zwischen zwei kommunizierenden Parteien statt, nicht durch direktes Hacken eines Computers."
+          },
+          {
+            "content": "Ein Angriff, bei dem Daten zwischen Sender und Empfänger abgefangen werden",
+            "correctAnswer": true,
+            "reason": "Korrekt, bei einem Man-in-the-Middle-Angriff werden die Daten während der Übertragung abgefangen und können manipuliert werden."
+          },
+          {
+            "content": "Eine Form der Malware, die sich selbst im Netzwerk repliziert",
+            "correctAnswer": false,
+            "reason": "Dies beschreibt eher einen Wurm als einen Man-in-the-Middle-Angriff."
+          },
+          {
+            "content": "Ein physischer Angriff auf Netzwerkhardware",
+            "correctAnswer": false,
+            "reason": "Ein Man-in-the-Middle-Angriff ist typischerweise digital und nicht physisch."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Künstliche Intelligenz",
+    "icon": "Brain",
+    "sort": 6,
+    "questions": [
+      {
+        "content": "Was ist maschinelles Lernen?",
+        "answers": [
+          {
+            "content": "Ein Prozess, bei dem Computerprogramme auf Basis von Daten lernen und sich verbessern",
+            "correctAnswer": true,
+            "reason": "Korrekt, maschinelles Lernen ist ein Teilbereich der KI, der es Computern ermöglicht, aus Daten zu lernen und Entscheidungen zu treffen."
+          },
+          {
+            "content": "Ein Algorithmus, der menschliche Emotionen interpretiert",
+            "correctAnswer": false,
+            "reason": "Maschinelles Lernen bezieht sich allgemein auf das Lernen aus Daten, nicht spezifisch auf die Interpretation menschlicher Emotionen."
+          },
+          {
+            "content": "Eine Datenbanktechnologie",
+            "correctAnswer": false,
+            "reason": "Maschinelles Lernen ist eine Methode der Datenanalyse, nicht eine Datenbanktechnologie."
+          },
+          {
+            "content": "Ein Netzwerkdienst",
+            "correctAnswer": false,
+            "reason": "Maschinelles Lernen ist keine Art von Netzwerkdienst, sondern eine Technologie zur Datenanalyse und Entscheidungsfindung."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter Deep Learning?",
+        "answers": [
+          {
+            "content": "Eine Technik zur Verbesserung der Internetgeschwindigkeit",
+            "correctAnswer": false,
+            "reason": "Deep Learning ist eine Technik im Bereich des maschinellen Lernens, die sich auf neuronale Netze bezieht, nicht auf Internetgeschwindigkeit."
+          },
+          {
+            "content": "Eine Form des maschinellen Lernens, die auf künstlichen neuronalen Netzen basiert",
+            "correctAnswer": true,
+            "reason": "Korrekt, Deep Learning ist ein Teilbereich des maschinellen Lernens, der sich auf komplexe Strukturen künstlicher neuronaler Netze stützt."
+          },
+          {
+            "content": "Ein Algorithmus zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Deep Learning befasst sich mit der Analyse und dem Lernen aus großen Datenmengen, nicht mit Datenverschlüsselung."
+          },
+          {
+            "content": "Eine Methode zur Datenlöschung",
+            "correctAnswer": false,
+            "reason": "Deep Learning ist eine Technologie, die zum Lernen aus Daten dient, nicht zur Datenlöschung."
+          }
+        ]
+      },
+      {
+        "content": "Wofür wird KI hauptsächlich verwendet?",
+        "answers": [
+          {
+            "content": "Zur Erstellung von Kunstwerken",
+            "correctAnswer": false,
+            "reason": "Obwohl KI zur Erstellung von Kunst eingesetzt werden kann, ist dies nicht ihre Hauptanwendung."
+          },
+          {
+            "content": "Zur Automatisierung von Arbeitsprozessen",
+            "correctAnswer": true,
+            "reason": "Korrekt, eine der Hauptanwendungen von KI ist die Automatisierung von Prozessen in verschiedenen Branchen."
+          },
+          {
+            "content": "Zum Spielen von Computerspielen",
+            "correctAnswer": false,
+            "reason": "KI wird zwar in der Entwicklung von Computerspielen verwendet, aber dies ist nicht ihre primäre Anwendung."
+          },
+          {
+            "content": "Für die manuelle Datenanalyse",
+            "correctAnswer": false,
+            "reason": "KI wird eingesetzt, um die Datenanalyse zu automatisieren und zu verbessern, nicht um sie manuell durchzuführen."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein neuronales Netzwerk?",
+        "answers": [
+          {
+            "content": "Ein System zur Energieverteilung",
+            "correctAnswer": false,
+            "reason": "Ein neuronales Netzwerk ist ein Modell in der KI, das dem menschlichen Gehirn nachempfunden ist, und hat nichts mit Energieverteilung zu tun."
+          },
+          {
+            "content": "Ein Computernetzwerk",
+            "correctAnswer": false,
+            "reason": "Obwohl der Begriff ähnlich klingt, bezieht sich ein neuronales Netzwerk auf KI-Modelle, nicht auf physische Computernetzwerke."
+          },
+          {
+            "content": "Ein Modell in der KI, das dem menschlichen Gehirn nachempfunden ist",
+            "correctAnswer": true,
+            "reason": "Korrekt, neuronale Netze sind von der Funktionsweise des menschlichen Gehirns inspirierte Modelle, die in der KI verwendet werden."
+          },
+          {
+            "content": "Ein Algorithmus für Finanztransaktionen",
+            "correctAnswer": false,
+            "reason": "Neuronale Netzwerke können zwar in der Finanzbranche eingesetzt werden, sind aber kein spezifischer Algorithmus für Finanztransaktionen."
+          }
+        ]
+      },
+      {
+        "content": "Was ist natürliche Sprachverarbeitung (Natural Language Processing, NLP)?",
+        "answers": [
+          {
+            "content": "Eine Methode zur Verbesserung der Druckqualität",
+            "correctAnswer": false,
+            "reason": "NLP bezieht sich auf die Fähigkeit von Computern, menschliche Sprache zu verstehen und zu verarbeiten, nicht auf Drucktechnologien."
+          },
+          {
+            "content": "Eine Technik zur Datenkomprimierung",
+            "correctAnswer": false,
+            "reason": "NLP ist ein Bereich der KI, der sich mit der Verarbeitung natürlicher Sprache befasst, nicht mit Datenkomprimierung."
+          },
+          {
+            "content": "Die Interaktion zwischen Computern und Menschen mittels natürlicher Sprache",
+            "correctAnswer": true,
+            "reason": "Korrekt, NLP ermöglicht es Computern, menschliche Sprache zu verstehen, zu interpretieren und darauf zu reagieren."
+          },
+          {
+            "content": "Ein Sicherheitsprotokoll für Netzwerke",
+            "correctAnswer": false,
+            "reason": "NLP hat nichts mit Netzwerksicherheit zu tun, sondern mit der Verarbeitung und dem Verständnis natürlicher Sprache."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Software Engineering",
+    "icon": "Code",
+    "sort": 7,
+    "questions": [
+      {
+        "content": "Was versteht man unter Agile Softwareentwicklung?",
+        "answers": [
+          {
+            "content": "Eine strikt sequenzielle Entwicklungsstrategie",
+            "correctAnswer": false,
+            "reason": "Agile Entwicklung ist flexibel und iterativ, nicht strikt sequenziell."
+          },
+          {
+            "content": "Eine flexible und iterative Entwicklungsstrategie",
+            "correctAnswer": true,
+            "reason": "Korrekt, Agile Entwicklung fokussiert auf Anpassungsfähigkeit und Kundenfeedback."
+          },
+          {
+            "content": "Eine Programmiersprache",
+            "correctAnswer": false,
+            "reason": "Agile Entwicklung bezieht sich auf Methoden, nicht auf Programmiersprachen."
+          },
+          {
+            "content": "Ein Typ von Datenbankmanagementsystem",
+            "correctAnswer": false,
+            "reason": "Agile Entwicklung ist eine Methode der Softwareentwicklung, keine Datenbanktechnologie."
+          }
+        ]
+      },
+      {
+        "content": "Was ist Continuous Integration (CI)?",
+        "answers": [
+          {
+            "content": "Ein Ansatz, bei dem Entwickler Änderungen mehrmals täglich in ein gemeinsames Repository einpflegen",
+            "correctAnswer": true,
+            "reason": "Korrekt, CI bezieht sich auf das regelmäßige Einpflegen von Codeänderungen zur Früherkennung von Fehlern."
+          },
+          {
+            "content": "Eine Software, die automatisch Kundenfeedback sammelt",
+            "correctAnswer": false,
+            "reason": "CI bezieht sich auf die Entwicklungspraxis, nicht auf Feedbacksammlung."
+          },
+          {
+            "content": "Ein Tool zur Versionskontrolle",
+            "correctAnswer": false,
+            "reason": "CI ist eine Praxis, die Tools zur Versionskontrolle nutzt, aber selbst kein solches Tool ist."
+          },
+          {
+            "content": "Eine Technik zur Verbesserung der UI/UX",
+            "correctAnswer": false,
+            "reason": "CI konzentriert sich auf die Integration und das Testen von Code, nicht direkt auf UI/UX."
+          }
+        ]
+      },
+      {
+        "content": "Was ist Refactoring?",
+        "answers": [
+          {
+            "content": "Das Hinzufügen neuer Funktionen zu einem Softwareprodukt",
+            "correctAnswer": false,
+            "reason": "Refactoring bezieht sich auf die Verbesserung der internen Struktur bestehenden Codes, nicht auf das Hinzufügen neuer Funktionen."
+          },
+          {
+            "content": "Das Entfernen veralteter Funktionen aus dem Code",
+            "correctAnswer": false,
+            "reason": "Obwohl dies während des Refactorings geschehen kann, ist es nicht das Hauptziel."
+          },
+          {
+            "content": "Die Verbesserung der Code-Struktur ohne Änderung des externen Verhaltens",
+            "correctAnswer": true,
+            "reason": "Korrekt, Refactoring zielt darauf ab, den Code lesbarer und wartbarer zu machen, ohne die Funktionalität zu ändern."
+          },
+          {
+            "content": "Die Verschlüsselung von Datenbankverbindungen",
+            "correctAnswer": false,
+            "reason": "Refactoring betrifft die allgemeine Codequalität, nicht spezifisch die Verschlüsselung von Datenbankverbindungen."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Design Pattern in der Softwareentwicklung?",
+        "answers": [
+          {
+            "content": "Eine spezifische Lösung für ein wiederkehrendes Problem",
+            "correctAnswer": true,
+            "reason": "Korrekt, Design Patterns sind bewährte Lösungsansätze für häufig auftretende Probleme in der Softwarearchitektur."
+          },
+          {
+            "content": "Ein Algorithmus zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Design Patterns beziehen sich auf allgemeine Lösungsstrategien, nicht spezifisch auf Verschlüsselung."
+          },
+          {
+            "content": "Eine Programmiersprache für UI-Design",
+            "correctAnswer": false,
+            "reason": "Design Patterns sind unabhängig von Programmiersprachen und beziehen sich auf Lösungsstrategien."
+          },
+          {
+            "content": "Ein Tool zur Versionskontrolle",
+            "correctAnswer": false,
+            "reason": "Design Patterns sind methodische Ansätze, keine Tools oder Technologien."
+          }
+        ]
+      },
+      {
+        "content": "Was bedeutet Testgetriebene Entwicklung (TDD)?",
+        "answers": [
+          {
+            "content": "Die Entwicklung von Software beginnt mit dem Schreiben von Tests vor dem eigentlichen Code",
+            "correctAnswer": true,
+            "reason": "Korrekt, bei TDD werden zuerst Tests geschrieben, die das gewünschte Verhalten definieren, bevor der Code implementiert wird."
+          },
+          {
+            "content": "Tests werden nur am Ende der Entwicklung durchgeführt",
+            "correctAnswer": false,
+            "reason": "TDD betont das Schreiben von Tests vor der Implementierung, nicht nur am Ende."
+          },
+          {
+            "content": "Eine Technik, die ausschließlich in der Endphase der Entwicklung angewendet wird",
+            "correctAnswer": false,
+            "reason": "TDD ist ein kontinuierlicher Prozess, der durch die gesamte Entwicklungsphase läuft."
+          },
+          {
+            "content": "Eine Methode, die das Schreiben von Dokumentation überflüssig macht",
+            "correctAnswer": false,
+            "reason": "TDD ersetzt nicht die Notwendigkeit für Dokumentation; es ist eine Entwicklungspraxis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kryptografie",
+    "icon": "Lock",
+    "sort": 8,
+    "questions": [
+      {
+        "content": "Was ist symmetrische Verschlüsselung?",
+        "answers": [
+          {
+            "content": "Eine Verschlüsselungsmethode, die für die Ver- und Entschlüsselung denselben Schlüssel verwendet",
+            "correctAnswer": true,
+            "reason": "Korrekt, symmetrische Verschlüsselung verwendet denselben Schlüssel für Ver- und Entschlüsselung."
+          },
+          {
+            "content": "Eine Verschlüsselungsmethode, die zwei unterschiedliche Schlüssel verwendet",
+            "correctAnswer": false,
+            "reason": "Das beschreibt asymmetrische Verschlüsselung, nicht symmetrische."
+          },
+          {
+            "content": "Eine Verschlüsselung, die nur mit Passwörtern arbeitet",
+            "correctAnswer": false,
+            "reason": "Symmetrische Verschlüsselung nutzt Schlüssel, die nicht nur Passwörter sind."
+          },
+          {
+            "content": "Eine Verschlüsselung, die nicht knackbar ist",
+            "correctAnswer": false,
+            "reason": "Keine Verschlüsselungsmethode ist absolut sicher und nicht knackbar."
+          }
+        ]
+      },
+      {
+        "content": "Was ist der Hauptnachteil der symmetrischen Verschlüsselung?",
+        "answers": [
+          {
+            "content": "Sie ist zu komplex in der Anwendung",
+            "correctAnswer": false,
+            "reason": "Symmetrische Verschlüsselung ist im Vergleich zu asymmetrischer einfacher in der Anwendung."
+          },
+          {
+            "content": "Der Schlüsselaustausch kann unsicher sein",
+            "correctAnswer": true,
+            "reason": "Das größte Problem symmetrischer Verschlüsselung ist der sichere Austausch des Schlüssels."
+          },
+          {
+            "content": "Sie verwendet zwei Schlüssel",
+            "correctAnswer": false,
+            "reason": "Symmetrische Verschlüsselung verwendet nur einen Schlüssel, nicht zwei."
+          },
+          {
+            "content": "Sie kann leicht geknackt werden",
+            "correctAnswer": false,
+            "reason": "Symmetrische Verschlüsselung ist sehr sicher, solange der Schlüssel geheim bleibt."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter asymmetrischer Verschlüsselung?",
+        "answers": [
+          {
+            "content": "Eine Methode, die denselben Schlüssel für Ver- und Entschlüsselung nutzt",
+            "correctAnswer": false,
+            "reason": "Das ist eine Beschreibung der symmetrischen Verschlüsselung."
+          },
+          {
+            "content": "Eine Verschlüsselungsmethode, die zwei verschiedene Schlüssel verwendet",
+            "correctAnswer": true,
+            "reason": "Korrekt, asymmetrische Verschlüsselung verwendet einen öffentlichen und einen privaten Schlüssel."
+          },
+          {
+            "content": "Eine Methode, die nur mit digitalen Signaturen arbeitet",
+            "correctAnswer": false,
+            "reason": "Asymmetrische Verschlüsselung wird für mehr verwendet als nur digitale Signaturen."
+          },
+          {
+            "content": "Eine veraltete Verschlüsselungstechnik",
+            "correctAnswer": false,
+            "reason": "Asymmetrische Verschlüsselung ist eine moderne und weit verbreitete Technik."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine Hash-Funktion?",
+        "answers": [
+          {
+            "content": "Eine Funktion, die Daten in eine numerische Darstellung umwandelt",
+            "correctAnswer": false,
+            "reason": "Das ist eine ungenaue Beschreibung. Hash-Funktionen erzeugen eine Ausgabe fester Länge aus Eingabedaten beliebiger Länge."
+          },
+          {
+            "content": "Eine Funktion, die eine eindeutige, feste Länge Ausgabe für jede Eingabe generiert",
+            "correctAnswer": true,
+            "reason": "Korrekt, Hash-Funktionen generieren eine Ausgabe fester Länge, die für jede einzigartige Eingabe unterschiedlich ist."
+          },
+          {
+            "content": "Ein Werkzeug zur Verschlüsselung von Passwörtern",
+            "correctAnswer": false,
+            "reason": "Obwohl Hash-Funktionen zur Speicherung von Passwörtern verwendet werden können, ist dies nicht ihre einzige Anwendung."
+          },
+          {
+            "content": "Ein Algorithmus, der zur Erstellung digitaler Signaturen verwendet wird",
+            "correctAnswer": false,
+            "reason": "Hash-Funktionen werden in Verbindung mit digitalen Signaturen verwendet, aber ihre Hauptfunktion ist das Hashing von Daten."
+          }
+        ]
+      },
+      {
+        "content": "Was ist der Zweck digitaler Signaturen?",
+        "answers": [
+          {
+            "content": "Die Verschlüsselung von Nachrichten",
+            "correctAnswer": false,
+            "reason": "Digitale Signaturen verschlüsseln keine Nachrichten, sondern sichern die Authentizität und Integrität."
+          },
+          {
+            "content": "Das Verifizieren der Authentizität und Integrität einer Nachricht",
+            "correctAnswer": true,
+            "reason": "Korrekt, digitale Signaturen stellen sicher, dass eine Nachricht wirklich vom angegebenen Sender stammt und nicht verändert wurde."
+          },
+          {
+            "content": "Die Erzeugung eines geheimen Schlüssels",
+            "correctAnswer": false,
+            "reason": "Digitale Signaturen erzeugen keine Schlüssel, sondern nutzen asymmetrische Verschlüsselung für Authentifizierungszwecke."
+          },
+          {
+            "content": "Die Speicherung von Passwörtern",
+            "correctAnswer": false,
+            "reason": "Digitale Signaturen werden nicht zur Passwortspeicherung verwendet."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Netzwerktechnologien",
+    "icon": "Network",
+    "sort": 9,
+    "questions": [
+      {
+        "content": "Was ist der Hauptzweck eines Routers im Netzwerk?",
+        "answers": [
+          {
+            "content": "Das Speichern von Dateien",
+            "correctAnswer": false,
+            "reason": "Ein Router wird verwendet, um Datenpakete zwischen Netzwerken zu leiten, nicht zum Speichern von Dateien."
+          },
+          {
+            "content": "Das Verbinden mehrerer Netzwerke und Leiten von Datenpaketen",
+            "correctAnswer": true,
+            "reason": "Korrekt, Router verbinden verschiedene Netzwerke und leiten Datenpakete entsprechend ihrer Bestimmung."
+          },
+          {
+            "content": "Das Erzeugen von elektrischer Energie",
+            "correctAnswer": false,
+            "reason": "Router sind für die Datenübertragung zuständig und erzeugen keine elektrische Energie."
+          },
+          {
+            "content": "Das Schützen des Netzwerks vor Malware",
+            "correctAnswer": false,
+            "reason": "Obwohl Router Sicherheitsfunktionen haben können, ist ihr Hauptzweck die Weiterleitung von Datenpaketen."
+          }
+        ]
+      },
+      {
+        "content": "Was beschreibt das OSI-Modell?",
+        "answers": [
+          {
+            "content": "Eine Reihe von Richtlinien für physische Netzwerkverbindungen",
+            "correctAnswer": false,
+            "reason": "Das OSI-Modell beschreibt Schichten der Netzwerkkommunikation, nicht nur physische Verbindungen."
+          },
+          {
+            "content": "Eine Programmiersprache speziell für Netzwerkanwendungen",
+            "correctAnswer": false,
+            "reason": "Das OSI-Modell ist ein Referenzmodell für Netzwerkkommunikation, keine Programmiersprache."
+          },
+          {
+            "content": "Eine Architektur, die die Netzwerkkommunikation in sieben Schichten unterteilt",
+            "correctAnswer": true,
+            "reason": "Korrekt, das OSI-Modell teilt die Netzwerkkommunikation in sieben Schichten ein, von physisch bis zur Anwendung."
+          },
+          {
+            "content": "Ein Protokoll für verschlüsselte Datenübertragung",
+            "correctAnswer": false,
+            "reason": "Das OSI-Modell ist ein Referenzmodell, das die Prinzipien der Netzwerkkommunikation definiert, kein spezifisches Übertragungsprotokoll."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Subnetz?",
+        "answers": [
+          {
+            "content": "Ein kleines Netzwerk außerhalb des Internets",
+            "correctAnswer": false,
+            "reason": "Ein Subnetz ist ein logisch geteilter Teil eines größeren Netzwerks, nicht notwendigerweise außerhalb des Internets."
+          },
+          {
+            "content": "Ein Werkzeug zur Netzwerkdiagnose",
+            "correctAnswer": false,
+            "reason": "Subnetze dienen der Organisation und Optimierung von Netzwerken, nicht der Diagnose."
+          },
+          {
+            "content": "Eine Methode, um ein IP-Netzwerk in kleinere Netzwerksegmente aufzuteilen",
+            "correctAnswer": true,
+            "reason": "Korrekt, Subnetze werden verwendet, um ein größeres Netzwerk in kleinere, verwaltbare Segmente aufzuteilen."
+          },
+          {
+            "content": "Ein spezifisches Netzwerkprotokoll",
+            "correctAnswer": false,
+            "reason": "Subnetting ist eine Netzwerkpraxis, kein spezifisches Protokoll."
+          }
+        ]
+      },
+      {
+        "content": "Was ist der Unterschied zwischen IPv4 und IPv6?",
+        "answers": [
+          {
+            "content": "IPv6 verwendet kürzere Adressen als IPv4",
+            "correctAnswer": false,
+            "reason": "IPv6 verwendet tatsächlich längere Adressen als IPv4, um eine größere Anzahl von Geräten zu unterstützen."
+          },
+          {
+            "content": "IPv4 unterstützt mehr Geräte als IPv6",
+            "correctAnswer": false,
+            "reason": "IPv6 wurde entwickelt, um deutlich mehr Geräte als IPv4 zu unterstützen."
+          },
+          {
+            "content": "IPv6 bietet verbesserte Sicherheitsfunktionen gegenüber IPv4",
+            "correctAnswer": true,
+            "reason": "Korrekt, IPv6 enthält verbesserte Sicherheitsfunktionen und unterstützt eine größere Anzahl von Geräten."
+          },
+          {
+            "content": "IPv4 und IPv6 können nicht im selben Netzwerk verwendet werden",
+            "correctAnswer": false,
+            "reason": "Mit bestimmten Techniken können IPv4 und IPv6 im selben Netzwerk koexistieren."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter einem VPN?",
+        "answers": [
+          {
+            "content": "Ein Virenprüfnetzwerk zur Erkennung von Malware",
+            "correctAnswer": false,
+            "reason": "VPN steht für Virtual Private Network, nicht für ein Netzwerk zur Virenerkennung."
+          },
+          {
+            "content": "Ein Netzwerk, das ausschließlich für die Übertragung von Videodaten verwendet wird",
+            "correctAnswer": false,
+            "reason": "Ein VPN wird für sichere Datenübertragungen genutzt, nicht ausschließlich für Videodaten."
+          },
+          {
+            "content": "Eine Technologie, die eine sichere Verbindung über ein öffentliches Netzwerk ermöglicht",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein VPN schafft eine sichere Verbindung über ein sonst unsicheres oder öffentliches Netzwerk."
+          },
+          {
+            "content": "Ein Protokoll zur Beschleunigung der Internetverbindung",
+            "correctAnswer": false,
+            "reason": "Ein VPN dient der Sicherheit und Privatsphäre, nicht der Beschleunigung der Internetverbindung."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Webentwicklung",
+    "icon": "Globe",
+    "sort": 10,
+    "questions": [
+      {
+        "content": "Was ist das Hauptziel von Responsive Design?",
+        "answers": [
+          {
+            "content": "Die Ladezeit der Webseite zu beschleunigen",
+            "correctAnswer": false,
+            "reason": "Responsive Design zielt darauf ab, das Layout und die Darstellung auf verschiedenen Geräten anzupassen, nicht primär die Ladezeit zu verbessern."
+          },
+          {
+            "content": "Eine Webseite auf verschiedenen Geräten korrekt darzustellen",
+            "correctAnswer": true,
+            "reason": "Richtig, das Hauptziel von Responsive Design ist es, Webseiten so zu gestalten, dass sie auf Geräten verschiedener Größen gut aussehen und funktionieren."
+          },
+          {
+            "content": "Die Sicherheit der Webseite zu erhöhen",
+            "correctAnswer": false,
+            "reason": "Responsive Design befasst sich mit Design und Benutzererfahrung, nicht direkt mit der Sicherheit der Webseite."
+          },
+          {
+            "content": "Die Webseite für Suchmaschinen zu optimieren",
+            "correctAnswer": false,
+            "reason": "Während eine mobilfreundliche Webseite positiv für SEO sein kann, ist das direkte Ziel von Responsive Design die Anpassungsfähigkeit auf verschiedene Bildschirmgrößen."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Content Management System (CMS)?",
+        "answers": [
+          {
+            "content": "Ein Tool zur Verschlüsselung von Webinhalten",
+            "correctAnswer": false,
+            "reason": "Ein CMS ist kein Verschlüsselungstool, sondern eine Software zur Verwaltung von Webinhalten."
+          },
+          {
+            "content": "Eine Datenbank, die ausschließlich für Webseiten verwendet wird",
+            "correctAnswer": false,
+            "reason": "Ein CMS kann eine Datenbank nutzen, ist aber an sich eine Softwareplattform für die Erstellung und Verwaltung von digitalen Inhalten."
+          },
+          {
+            "content": "Eine Software, die das Erstellen, Bearbeiten und Organisieren von Webinhalten erleichtert",
+            "correctAnswer": true,
+            "reason": "Richtig, ein CMS ist eine Software, die es Benutzern ermöglicht, Webinhalte ohne spezielle technische Kenntnisse zu verwalten."
+          },
+          {
+            "content": "Ein Protokoll zur Übertragung von Dateien im Internet",
+            "correctAnswer": false,
+            "reason": "Ein CMS ist keine Übertragungsprotokoll, sondern eine Anwendungssoftware für Webinhalte."
+          }
+        ]
+      },
+      {
+        "content": "Was ist AJAX in der Webentwicklung?",
+        "answers": [
+          {
+            "content": "Ein Design-Stil für Webseiten",
+            "correctAnswer": false,
+            "reason": "AJAX steht nicht für einen Design-Stil, sondern für eine Technik in der Webentwicklung."
+          },
+          {
+            "content": "Eine Programmiersprache",
+            "correctAnswer": false,
+            "reason": "AJAX ist keine Programmiersprache, sondern eine Technik, die JavaScript und XML verwendet."
+          },
+          {
+            "content": "Eine Technik, die es ermöglicht, Webseiten dynamisch zu aktualisieren, ohne die Seite neu zu laden",
+            "correctAnswer": true,
+            "reason": "Richtig, AJAX (Asynchronous JavaScript and XML) ermöglicht es, Daten mit einem Webserver auszutauschen und Teile einer Seite zu aktualisieren, ohne die ganze Seite neu laden zu müssen."
+          },
+          {
+            "content": "Ein Tool zur Messung der Website-Performance",
+            "correctAnswer": false,
+            "reason": "AJAX ist ein Entwicklungsansatz für interaktive Webanwendungen, kein Performance-Messwerkzeug."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Framework in der Webentwicklung?",
+        "answers": [
+          {
+            "content": "Ein Serverbetriebssystem",
+            "correctAnswer": false,
+            "reason": "Ein Framework ist kein Betriebssystem, sondern eine strukturierte Umgebung, die die Entwicklung von Softwareprojekten unterstützt."
+          },
+          {
+            "content": "Eine Sammlung von Tools und Bibliotheken, die die Entwicklung von Webanwendungen erleichtern",
+            "correctAnswer": true,
+            "reason": "Richtig, ein Framework bietet eine vordefinierte Struktur und wiederverwendbare Komponenten für die Entwicklung von Webanwendungen."
+          },
+          {
+            "content": "Eine spezielle Art von Webserver",
+            "correctAnswer": false,
+            "reason": "Ein Framework ist keine Hardware oder Software zur Bereitstellung von Webinhalten, sondern ein Entwicklungswerkzeug."
+          },
+          {
+            "content": "Ein Protokoll für die Datenübertragung im Internet",
+            "correctAnswer": false,
+            "reason": "Ein Framework bezieht sich auf Entwicklungstools, nicht auf Protokolle für die Datenübertragung."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter SEO in der Webentwicklung?",
+        "answers": [
+          {
+            "content": "Die Sicherheit einer Webseite verbessern",
+            "correctAnswer": false,
+            "reason": "SEO (Search Engine Optimization) bezieht sich auf die Optimierung von Webseiten für Suchmaschinen, nicht auf deren Sicherheit."
+          },
+          {
+            "content": "Die Benutzererfahrung auf mobilen Geräten verbessern",
+            "correctAnswer": false,
+            "reason": "Während mobile Optimierung ein Teil von SEO sein kann, ist SEO umfassender und zielt darauf ab, die Sichtbarkeit einer Webseite in Suchmaschinen zu erhöhen."
+          },
+          {
+            "content": "Die Sichtbarkeit einer Webseite in Suchmaschinenergebnissen verbessern",
+            "correctAnswer": true,
+            "reason": "Richtig, SEO steht für die Optimierung von Webseiten, um ihre Position in den Suchergebnissen von Suchmaschinen zu verbessern."
+          },
+          {
+            "content": "Ein Protokoll zur Verschlüsselung von Daten, die über das Internet gesendet werden",
+            "correctAnswer": false,
+            "reason": "SEO bezieht sich auf Suchmaschinenoptimierung, nicht auf Datenverschlüsselung."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Algorithmik",
+    "icon": "Puzzle",
+    "sort": 11,
+    "questions": [
+      {
+        "content": "Was ist die Komplexität des Bubble-Sort-Algorithmus im schlimmsten Fall?",
+        "answers": [
+          {
+            "content": "O(n)",
+            "correctAnswer": false,
+            "reason": "Im schlimmsten Fall hat Bubble Sort eine Komplexität von O(n^2), nicht O(n)."
+          },
+          {
+            "content": "O(n log n)",
+            "correctAnswer": false,
+            "reason": "O(n log n) ist die typische Komplexität effizienterer Sortieralgorithmen wie Merge Sort, nicht von Bubble Sort."
+          },
+          {
+            "content": "O(n^2)",
+            "correctAnswer": true,
+            "reason": "Korrekt, im schlimmsten Fall hat Bubble Sort eine quadratische Zeitkomplexität von O(n^2)."
+          },
+          {
+            "content": "O(log n)",
+            "correctAnswer": false,
+            "reason": "O(log n) ist die Komplexität von effizienten Suchoperationen in sortierten Datenstrukturen, nicht von Bubble Sort."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter Rekursion in der Informatik?",
+        "answers": [
+          {
+            "content": "Eine Funktion, die Daten in einer Schleife verarbeitet",
+            "correctAnswer": false,
+            "reason": "Das beschreibt eher Iteration. Rekursion bezieht sich auf Funktionen, die sich selbst aufrufen."
+          },
+          {
+            "content": "Eine Methode zum direkten Zugriff auf Datenbanken",
+            "correctAnswer": false,
+            "reason": "Rekursion ist ein Programmierkonzept und hat nichts direkt mit Datenbankzugriffen zu tun."
+          },
+          {
+            "content": "Eine Funktion, die sich selbst aufruft",
+            "correctAnswer": true,
+            "reason": "Korrekt, Rekursion bezeichnet in der Informatik eine Funktion, die sich in ihrer Definition selbst aufruft."
+          },
+          {
+            "content": "Ein Algorithmus zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Rekursion ist ein allgemeines Programmierprinzip und nicht spezifisch für Datenverschlüsselung."
+          }
+        ]
+      },
+      {
+        "content": "Was beschreibt die Big O Notation?",
+        "answers": [
+          {
+            "content": "Die genaue Laufzeit eines Algorithmus in Millisekunden",
+            "correctAnswer": false,
+            "reason": "Die Big O Notation beschreibt die obere Grenze der Laufzeitkomplexität, nicht die genaue Laufzeit in Millisekunden."
+          },
+          {
+            "content": "Die maximale Größe des Inputs für einen Algorithmus",
+            "correctAnswer": false,
+            "reason": "Die Big O Notation gibt die Wachstumsrate der Laufzeit oder des Speicherplatzes in Bezug auf den Input an, nicht dessen maximale Größe."
+          },
+          {
+            "content": "Die obere Grenze der Laufzeit- oder Speicherplatzkomplexität eines Algorithmus",
+            "correctAnswer": true,
+            "reason": "Korrekt, die Big O Notation wird verwendet, um die obere Grenze der Laufzeit- oder Speicherplatzkomplexität zu beschreiben."
+          },
+          {
+            "content": "Die minimale Anzahl von Prozessorkernen benötigt für einen Algorithmus",
+            "correctAnswer": false,
+            "reason": "Die Big O Notation hat nichts mit der Anzahl der Prozessorkerne zu tun, sondern beschreibt Komplexität."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Graph in der Informatik?",
+        "answers": [
+          {
+            "content": "Eine visuelle Darstellung von Daten",
+            "correctAnswer": false,
+            "reason": "Obwohl Graphen visuell dargestellt werden können, bezieht sich der Begriff in der Informatik auf eine abstrakte Datenstruktur."
+          },
+          {
+            "content": "Eine Sammlung von Knoten, die durch Kanten verbunden sind",
+            "correctAnswer": true,
+            "reason": "Korrekt, in der Informatik ist ein Graph eine Datenstruktur, die aus Knoten (oder Vertizes) besteht, die durch Kanten verbunden sind."
+          },
+          {
+            "content": "Ein Algorithmus zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Ein Graph ist eine Datenstruktur und kein Algorithmus zur Datenverschlüsselung."
+          },
+          {
+            "content": "Eine Methode zur Optimierung von Datenbankabfragen",
+            "correctAnswer": false,
+            "reason": "Obwohl Graphen in einigen Datenbanktechnologien verwendet werden können, ist ein Graph an sich eine allgemeine Datenstruktur."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein binärer Suchbaum?",
+        "answers": [
+          {
+            "content": "Eine Datenbankstruktur zur Speicherung von Schlüssel-Wert-Paaren",
+            "correctAnswer": false,
+            "reason": "Ein binärer Suchbaum ist eine spezifische Art von Datenstruktur, nicht speziell eine Datenbankstruktur."
+          },
+          {
+            "content": "Ein Netzwerkprotokoll für schnelle Datenübertragung",
+            "correctAnswer": false,
+            "reason": "Ein binärer Suchbaum ist eine Datenstruktur und kein Netzwerkprotokoll."
+          },
+          {
+            "content": "Eine Datenstruktur, in der jeder Knoten bis zu zwei Nachfolger hat",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein binärer Suchbaum ist eine Datenstruktur, in der jeder Knoten keine, einen oder zwei Nachfolger hat, wobei die Elemente in einer spezifischen Reihenfolge angeordnet sind."
+          },
+          {
+            "content": "Eine Verschlüsselungsmethode basierend auf binären Operationen",
+            "correctAnswer": false,
+            "reason": "Ein binärer Suchbaum ist eine Datenstruktur, die für die Organisation und das effiziente Durchsuchen von Daten verwendet wird, nicht für Verschlüsselung."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Betriebssysteme",
+    "icon": "Computer",
+    "sort": 12,
+    "questions": [
+      {
+        "content": "Was ist ein Prozess im Kontext von Betriebssystemen?",
+        "answers": [
+          {
+            "content": "Eine Anweisung innerhalb eines Programmcodes",
+            "correctAnswer": false,
+            "reason": "Ein Prozess bezieht sich auf ein Programm in Ausführung und nicht nur auf eine Anweisung."
+          },
+          {
+            "content": "Ein in Ausführung befindliches Programm",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein Prozess ist die Ausführung eines Programms durch das Betriebssystem."
+          },
+          {
+            "content": "Ein Datenspeichergerät",
+            "correctAnswer": false,
+            "reason": "Ein Prozess hat mit der Ausführung von Programmen zu tun, nicht mit Datenspeichergeräten."
+          },
+          {
+            "content": "Eine Verbindung zwischen Computern in einem Netzwerk",
+            "correctAnswer": false,
+            "reason": "Ein Prozess bezieht sich auf die Ausführung von Programmen und nicht auf Netzwerkverbindungen."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter Multitasking in Betriebssystemen?",
+        "answers": [
+          {
+            "content": "Die gleichzeitige Ausführung mehrerer Prozesse durch den Benutzer",
+            "correctAnswer": false,
+            "reason": "Multitasking ermöglicht die gleichzeitige Ausführung mehrerer Prozesse, wird aber vom Betriebssystem verwaltet."
+          },
+          {
+            "content": "Die Fähigkeit eines Betriebssystems, mehrere Aufgaben gleichzeitig zu verwalten",
+            "correctAnswer": true,
+            "reason": "Korrekt, Multitasking bezieht sich auf die Verwaltung und Ausführung mehrerer Prozesse durch das Betriebssystem."
+          },
+          {
+            "content": "Ein spezieller Prozessor für Grafikaufgaben",
+            "correctAnswer": false,
+            "reason": "Multitasking bezieht sich auf die Prozessverwaltung, nicht auf spezielle Hardware für Grafikaufgaben."
+          },
+          {
+            "content": "Ein Verfahren zur Datensicherung",
+            "correctAnswer": false,
+            "reason": "Multitasking hat mit der gleichzeitigen Ausführung von Prozessen zu tun, nicht mit Datensicherung."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine Deadlock-Situation in einem Betriebssystem?",
+        "answers": [
+          {
+            "content": "Wenn das System abstürzt und neu gestartet werden muss",
+            "correctAnswer": false,
+            "reason": "Ein Deadlock ist eine spezifische Bedingung, bei der Prozesse blockiert sind, nicht unbedingt ein Systemabsturz."
+          },
+          {
+            "content": "Eine Situation, in der sich zwei oder mehr Prozesse gegenseitig blockieren",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein Deadlock tritt auf, wenn Prozesse auf Ressourcen warten, die von anderen gehalten werden, die ebenfalls warten."
+          },
+          {
+            "content": "Ein fehlerhaftes Programm, das geschlossen werden muss",
+            "correctAnswer": false,
+            "reason": "Ein Deadlock bezieht sich auf eine Blockierung zwischen Prozessen, nicht nur auf ein einzelnes fehlerhaftes Programm."
+          },
+          {
+            "content": "Der Verlust von Daten während der Übertragung",
+            "correctAnswer": false,
+            "reason": "Ein Deadlock bezieht sich auf Prozessblockierungen, nicht auf Datenübertragungsfehler."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Betriebssystemkern (Kernel)?",
+        "answers": [
+          {
+            "content": "Ein Programm zur Datenwiederherstellung",
+            "correctAnswer": false,
+            "reason": "Der Kernel ist der zentrale Bestandteil eines Betriebssystems, nicht ein Datenwiederherstellungsprogramm."
+          },
+          {
+            "content": "Die zentrale Komponente eines Betriebssystems, die die Hardware steuert",
+            "correctAnswer": true,
+            "reason": "Korrekt, der Kernel ist der Kern des Betriebssystems, der die Kommunikation zwischen Software und Hardware regelt."
+          },
+          {
+            "content": "Ein externes Gerät, das an den Computer angeschlossen wird",
+            "correctAnswer": false,
+            "reason": "Der Kernel ist eine Softwarekomponente, kein externes Gerät."
+          },
+          {
+            "content": "Ein Typ von Computervirus",
+            "correctAnswer": false,
+            "reason": "Der Kernel ist ein essentieller Bestandteil eines Betriebssystems, kein Virus."
+          }
+        ]
+      },
+      {
+        "content": "Was versteht man unter Virtualisierung in der Informatik?",
+        "answers": [
+          {
+            "content": "Das Erstellen virtueller Versionen von Hardware, Software, Speichermedien und Netzwerkressourcen",
+            "correctAnswer": true,
+            "reason": "Korrekt, Virtualisierung bezieht sich auf die Erstellung virtueller Ressourcen, nicht nur auf die Verbindung von Computern."
+          },
+          {
+            "content": "Die Verbindung von Computern in einem Netzwerk",
+            "correctAnswer": false,
+            "reason": "Obwohl Virtualisierung Netzwerkfunktionen verbessern kann, bezieht sie sich spezifisch auf das Erstellen virtueller Ressourcen."
+          },
+          {
+            "content": "Eine Methode zur Verschlüsselung von Daten",
+            "correctAnswer": false,
+            "reason": "Virtualisierung bezieht sich auf die Erstellung virtueller Instanzen von Ressourcen, nicht auf Datenverschlüsselung."
+          },
+          {
+            "content": "Ein Prozess zur Geschwindigkeitserhöhung von Computern",
+            "correctAnswer": false,
+            "reason": "Virtualisierung kann die Ressourcennutzung optimieren, zielt aber primär auf Flexibilität und Effizienz, nicht direkt auf Geschwindigkeit."
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "title": "Mensch-Computer-Interaktion",
+    "icon": "User",
+    "sort": 13,
+    "questions": [
+      {
+        "content": "Was versteht man unter Usability?",
+        "answers": [
+          {
+            "content": "Die Programmiersprache, die bei der Entwicklung verwendet wird",
+            "correctAnswer": false,
+            "reason": "Usability bezieht sich nicht auf die Programmiersprache, sondern auf die Benutzerfreundlichkeit einer Software oder Webseite."
+          },
+          {
+            "content": "Die Geschwindigkeit einer Internetverbindung",
+            "correctAnswer": false,
+            "reason": "Usability hat zwar einen Einfluss auf die Nutzererfahrung, bezieht sich aber primär auf die Gestaltung und Benutzerfreundlichkeit, nicht auf die Internetgeschwindigkeit."
+          },
+          {
+            "content": "Die Benutzerfreundlichkeit und Zugänglichkeit einer Software oder Webseite",
+            "correctAnswer": true,
+            "reason": "Korrekt, Usability bezieht sich auf die Benutzerfreundlichkeit und wie einfach und effizient Nutzer ihre Ziele erreichen können."
+          },
+          {
+            "content": "Die Anzahl der Funktionen einer Software",
+            "correctAnswer": false,
+            "reason": "Eine hohe Anzahl an Funktionen bedeutet nicht automatisch eine gute Usability. Es kommt darauf an, wie benutzerfreundlich und zugänglich diese Funktionen gestaltet sind."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein User Interface?",
+        "answers": [
+          {
+            "content": "Ein Netzwerkprotokoll",
+            "correctAnswer": false,
+            "reason": "Ein User Interface ist kein Netzwerkprotokoll, sondern die Schnittstelle zwischen Mensch und Computer."
+          },
+          {
+            "content": "Die Schnittstelle zwischen Mensch und Computer",
+            "correctAnswer": true,
+            "reason": "Korrekt, ein User Interface (UI) ist die Oberfläche, über die ein Nutzer mit einem Computer oder einer Anwendung interagiert."
+          },
+          {
+            "content": "Eine Programmiersprache für Webseiten",
+            "correctAnswer": false,
+            "reason": "Ein User Interface bezieht sich auf die Gestaltung der Benutzeroberfläche, nicht auf eine spezifische Programmiersprache."
+          },
+          {
+            "content": "Ein Typ von Computerhardware",
+            "correctAnswer": false,
+            "reason": "Ein User Interface ist Teil der Softwaregestaltung und nicht direkt ein Hardwareelement."
+          }
+        ]
+      },
+      {
+        "content": "Was ist der Zweck von Prototyping in der Mensch-Computer-Interaktion?",
+        "answers": [
+          {
+            "content": "Die Leistung des Computers zu verbessern",
+            "correctAnswer": false,
+            "reason": "Prototyping zielt nicht darauf ab, die Computerleistung zu verbessern, sondern Entwürfe zu testen und Nutzerfeedback zu sammeln."
+          },
+          {
+            "content": "Software schneller zu entwickeln",
+            "correctAnswer": false,
+            "reason": "Obwohl Prototyping den Entwicklungsprozess beschleunigen kann, liegt der Hauptzweck in der Überprüfung und Verbesserung von Designkonzepten."
+          },
+          {
+            "content": "Designkonzepte zu testen und Nutzerfeedback zu sammeln",
+            "correctAnswer": true,
+            "reason": "Korrekt, Prototyping wird verwendet, um Designkonzepte zu testen und frühzeitig Nutzerfeedback einzuholen, was zur Verbesserung der Benutzererfahrung beiträgt."
+          },
+          {
+            "content": "Die Kosten der Softwareentwicklung zu senken",
+            "correctAnswer": false,
+            "reason": "Prototyping kann indirekt Kosten senken, indem es hilft, Fehler früh zu erkennen, aber der Hauptzweck ist das Testen und Sammeln von Feedback."
+          }
+        ]
+      },
+      {
+        "content": "Was beschreibt das Prinzip der Konsistenz in der Gestaltung von Benutzeroberflächen?",
+        "answers": [
+          {
+            "content": "Jede Seite einer Anwendung sollte ein einzigartiges Layout haben",
+            "correctAnswer": false,
+            "reason": "Das Prinzip der Konsistenz fordert, dass ähnliche Elemente einheitlich gestaltet werden, nicht unterschiedlich."
+          },
+          {
+            "content": "Elemente und Aktionen sollten durchgängig ähnlich gestaltet und platziert werden",
+            "correctAnswer": true,
+            "reason": "Korrekt, Konsistenz in der UI-Gestaltung bedeutet, dass ähnliche Elemente und Aktionen einheitlich gehandhabt werden, um die Usability zu verbessern."
+          },
+          {
+            "content": "Die Anwendung sollte auf allen Geräten unterschiedlich aussehen",
+            "correctAnswer": false,
+            "reason": "Konsistenz bedeutet auch, dass die Anwendung über verschiedene Geräte hinweg ein kohärentes Erscheinungsbild und Verhalten aufweisen sollte."
+          },
+          {
+            "content": "Die Farbpalette sollte in jeder Anwendung unterschiedlich sein",
+            "correctAnswer": false,
+            "reason": "Eine konsistente Farbpalette ist Teil einer einheitlichen Markengestaltung und trägt zur Wiedererkennung bei."
+          }
+        ]
+      },
+      {
+        "content": "Was ist eine Heuristische Evaluation?",
+        "answers": [
+          {
+            "content": "Ein Test, um die Geschwindigkeit der Internetverbindung zu messen",
+            "correctAnswer": false,
+            "reason": "Eine heuristische Evaluation ist keine Messung der Internetgeschwindigkeit, sondern eine Methode zur Beurteilung der Usability einer Benutzeroberfläche."
+          },
+          {
+            "content": "Eine Methode zur Beurteilung der Benutzerfreundlichkeit einer Benutzeroberfläche",
+            "correctAnswer": true,
+            "reason": "Korrekt, bei einer heuristischen Evaluation bewerten Experten die Benutzeroberfläche anhand vordefinierter Usability-Prinzipien."
+          },
+          {
+            "content": "Eine Art von Programmiersprache",
+            "correctAnswer": false,
+            "reason": "Eine heuristische Evaluation ist keine Programmiersprache, sondern eine Usability-Bewertungsmethode."
+          },
+          {
+            "content": "Ein Algorithmus zur Datenverschlüsselung",
+            "correctAnswer": false,
+            "reason": "Eine heuristische Evaluation hat nichts mit Datenverschlüsselung zu tun, sondern fokussiert sich auf Usability-Aspekte."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Datenanalyse und Datenmanagement",
+    "icon": "HardDrive",
+    "sort": 14,
+    "questions": [
+      {
+        "content": "Was ist Data Mining?",
+        "answers": [
+          {
+            "content": "Eine Methode zur Gewinnung von Rohstoffen aus der Erde",
+            "correctAnswer": false,
+            "reason": "Data Mining bezieht sich auf die Analyse großer Datenmengen, nicht auf die Gewinnung von Rohstoffen."
+          },
+          {
+            "content": "Eine Technik zur Extraktion von Wissen aus großen Datenmengen",
+            "correctAnswer": true,
+            "reason": "Korrekt, Data Mining ist die Anwendung von statistischen und maschinellen Lernalgorithmen, um Muster und Erkenntnisse aus Daten zu extrahieren."
+          },
+          {
+            "content": "Eine Methode zur Verschlüsselung von Daten",
+            "correctAnswer": false,
+            "reason": "Data Mining hat nichts mit der Verschlüsselung von Daten zu tun."
+          },
+          {
+            "content": "Ein Prozess zur Datensicherung",
+            "correctAnswer": false,
+            "reason": "Data Mining ist nicht mit der Datensicherung verbunden."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Datenbankmanagementsystem (DBMS)?",
+        "answers": [
+          {
+            "content": "Ein spezieller Hardware-Chip zur Datenverarbeitung",
+            "correctAnswer": false,
+            "reason": "Ein DBMS ist eine Software zur Verwaltung und Organisation von Daten, keine Hardware."
+          },
+          {
+            "content": "Ein physischer Ort zur Speicherung von Daten",
+            "correctAnswer": false,
+            "reason": "Ein DBMS ist eine Software und kein physischer Speicherort."
+          },
+          {
+            "content": "Eine Software zur Verwaltung von Datenbanken und deren Zugriff",
+            "correctAnswer": true,
+            "reason": "Richtig, ein DBMS ist eine Software, die die Erstellung, Pflege und den Zugriff auf Datenbanken ermöglicht."
+          },
+          {
+            "content": "Ein Protokoll zur Datenübertragung im Netzwerk",
+            "correctAnswer": false,
+            "reason": "Ein DBMS ist keine Datenübertragungsprotokoll."
+          }
+        ]
+      },
+      {
+        "content": "Was sind Big Data?",
+        "answers": [
+          {
+            "content": "Kleine Datensätze mit geringer Bedeutung",
+            "correctAnswer": false,
+            "reason": "Big Data bezieht sich auf sehr große und komplexe Datensätze von hoher Bedeutung."
+          },
+          {
+            "content": "Daten, die auf einem einzelnen Computer gespeichert sind",
+            "correctAnswer": false,
+            "reason": "Big Data bezieht sich auf Datensätze, die so groß sind, dass sie nicht auf einem einzelnen Computer gespeichert werden können."
+          },
+          {
+            "content": "Extrem große und komplexe Datensätze, die schwierig zu verarbeiten sind",
+            "correctAnswer": true,
+            "reason": "Richtig, Big Data sind Datensätze, die so groß und komplex sind, dass sie spezielle Verarbeitungstechniken erfordern."
+          },
+          {
+            "content": "Daten, die für kleine Unternehmen irrelevant sind",
+            "correctAnswer": false,
+            "reason": "Die Bedeutung von Daten hängt von den spezifischen Anforderungen und Zielen ab, nicht von der Größe des Unternehmens."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Daten-Warehouse?",
+        "answers": [
+          {
+            "content": "Ein physisches Lager zur Aufbewahrung von Papierdokumenten",
+            "correctAnswer": false,
+            "reason": "Ein Daten-Warehouse bezieht sich auf eine spezielle Datenbank zur Speicherung und Analyse großer Mengen von Daten."
+          },
+          {
+            "content": "Eine Software zur Erstellung von 3D-Modellen aus Daten",
+            "correctAnswer": false,
+            "reason": "Ein Daten-Warehouse hat nichts mit 3D-Modellierung zu tun."
+          },
+          {
+            "content": "Eine zentrale Speicherstätte für unternehmensweite Daten",
+            "correctAnswer": true,
+            "reason": "Richtig, ein Daten-Warehouse ist eine Datenbank, die für die Analyse und Berichterstellung von unternehmensweiten Daten verwendet wird."
+          },
+          {
+            "content": "Ein Server zur E-Mail-Archivierung",
+            "correctAnswer": false,
+            "reason": "Ein Daten-Warehouse hat keine spezielle Verbindung zur E-Mail-Archivierung."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Data Warehouse",
+        "answers": [
+          {
+            "content": "Ein spezieller Hardware-Chip zur Datenverarbeitung",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist eine Softwarelösung, keine Hardware."
+          },
+          {
+            "content": "Ein physischer Ort zur Speicherung von Daten",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist eine Datenbanklösung, keine physische Speicherstätte."
+          },
+          {
+            "content": "Eine spezielle Datenbank zur Speicherung und Analyse großer Mengen von Daten",
+            "correctAnswer": true,
+            "reason": "Richtig, ein Data Warehouse ist eine spezialisierte Datenbank, die für die Analyse und Berichterstellung von großen Datenmengen verwendet wird."
+          },
+          {
+            "content": "Ein Protokoll zur Datenübertragung im Netzwerk",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist keine Datenübertragungsprotokoll."
+          }
+        ]
+      },
+      {
+        "content": "Was ist ein Data Warehouse",
+        "answers": [
+          {
+            "content": "Ein spezieller Hardware-Chip zur Datenverarbeitung",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist eine Softwarelösung, keine Hardware."
+          },
+          {
+            "content": "Ein physischer Ort zur Speicherung von Daten",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist eine Datenbanklösung, keine physische Speicherstätte."
+          },
+          {
+            "content": "Eine spezielle Datenbank zur Speicherung und Analyse großer Mengen von Daten",
+            "correctAnswer": true,
+            "reason": "Richtig, ein Data Warehouse ist eine spezialisierte Datenbank, die für die Analyse und Berichterstellung von großen Datenmengen verwendet wird."
+          },
+          {
+            "content": "Ein Protokoll zur Datenübertragung im Netzwerk",
+            "correctAnswer": false,
+            "reason": "Ein Data Warehouse ist keine Datenübertragungsprotokoll."
+          }
+        ]
+      }
+    ]
+  }
+]

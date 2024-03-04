@@ -1,0 +1,26 @@
+version: '3.9'
+name: 'study-quiz'
+
+volumes:
+  study-quiz-api-db-pgdata-volume:
+    name: study-quiz-api-db-pgdata-volume
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_DATABASE:-StudyQuiz}
+      PGDATA: /db
+    ports:
+      - ${DB_PORT:-5432}:5432
+    volumes:
+      - study-quiz-api-db-pgdata-volume:/var/lib/postgresql/data
+    restart: 'always'
+    networks:
+      - postgres-network
+
+networks:
+  postgres-network:
+    driver: bridge

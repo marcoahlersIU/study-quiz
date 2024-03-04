@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --card: 0 0% 98.82%;
+    --ring: 24.8 79.79% 63.14%;
+    --input: 0 0% 94.12%;
+    --muted: 0 0% 93.73%;
+    --accent: 0 0% 90.98%;
+    --border: 0 0% 84.71%;
+    --popover: 0 0% 98.82%;
+    --primary: 22.93 92.59% 52.35%;
+    --secondary: 34.05 100% 85.49%;
+    --background: 0 0% 97.65%;
+    --foreground: 0 0% 12.55%;
+    --destructive: 10.16 77.87% 53.92%;
+    --card-foreground: 0 0% 12.55%;
+    --muted-foreground: 0 0% 39.22%;
+    --accent-foreground: 0 0% 12.55%;
+    --popover-foreground: 0 0% 12.55%;
+    --primary-foreground: 44 0% 100%;
+    --secondary-foreground: 16.27 50.43% 22.94%;
+    --destructive-foreground: 0 0% 100%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --card: 0 0% 9.8%;
+    --ring: 23.11 59.8% 40%;
+    --input: 0 0% 28.24%;
+    --muted: 0 0% 13.33%;
+    --accent: 0 0% 16.47%;
+    --border: 44 14% 11%;
+    --popover: 0 0% 9.8%;
+    --primary: 22.93 92.59% 52.35%;
+    --secondary: 28.5 64.52% 12.16%;
+    --background: 0 0% 6.67%;
+    --foreground: 0 0% 93.33%;
+    --destructive: 10.16 77.87% 53.92%;
+    --card-foreground: 0 0% 93.33%;
+    --muted-foreground: 0 0% 70.59%;
+    --accent-foreground: 0 0% 93.33%;
+    --popover-foreground: 0 0% 93.33%;
+    --primary-foreground: 29.51 0% 100%;
+    --secondary-foreground: 29.51 100% 88.04%;
+    --destructive-foreground: 0 0% 100%;
+  }
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Inter-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Inter-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Inter-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Inter-Bold.woff2') format('woff2');
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-inter bg-background text-foreground;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
